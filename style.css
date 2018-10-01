@@ -1,0 +1,57 @@
+.black-bg {
+    background: #000000;
+}
+
+.border-orange {
+    border-color: darkorange !important;
+}
+
+.border-pill {
+    border-radius: 4rem;
+}
+
+.border-round {
+    border-radius: 2rem;
+}
+
+.container-left {
+    margin-left: 3.75rem !important;
+}
+.cursive {
+    font-family: 'Lobster', cursive;
+}
+
+.links {
+    color: #9D0000;
+}
+
+.links:hover {
+    text-decoration-color: #3F0E0E;
+    color: #3F0E0E;
+}
+
+.maroon-text {
+    color: #3F0E0E;
+}
+
+.monospace-text {
+    font-family: monospace;
+}
+
+.no-dots {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.one-half-rem {
+    font-size: 1.5rem;
+}
+
+.red-text {
+    color: #9D0000;
+}
+
+.w-15 {
+    max-width: 15%;
+}
