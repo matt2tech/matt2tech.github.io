@@ -1,5 +1,6 @@
 .bg-img {
-    background-image: url('images/background.jpg')
+    background-image: url('images/background.jpg');
+    background-repeat: repeat-y;
 }
 
 .black-bg {
@@ -7,7 +8,7 @@
 }
 
 .border-pill {
-    border-radius: 4rem;
+    border-radius: 3rem;
 }
 
 .border-round {
@@ -39,7 +40,7 @@
 }
 
 .img-of-me {
-    height: 60%;
+    height: 50%;
     border-radius: 4rem;
     border: solid #1388ce;
 }
