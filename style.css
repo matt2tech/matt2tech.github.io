@@ -17,8 +17,19 @@
 .container-left {
     margin-left: 3.75rem !important;
 }
+
+.container-right {
+    margin-right: 3.75rem !important;
+}
+
 .cursive {
     font-family: 'Lobster', cursive;
+}
+
+.img-of-me {
+    height: 60%;
+    border-radius: 4rem;
+    border: solid #9D0000;
 }
 
 .links {
@@ -52,6 +63,12 @@
     color: #9D0000;
 }
 
-.w-15 {
-    max-width: 15%;
+.w-750 {
+    max-width: 760px;
+    width:750px;
+}
+
+.w-8rem {
+    width: 8rem;
+    max-width: 8rem;
 }
