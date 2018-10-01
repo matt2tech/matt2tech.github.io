@@ -1,9 +1,9 @@
-.black-bg {
-    background: #000000;
+.bg-img {
+    background-image: url('images/background.jpg')
 }
 
-.border-orange {
-    border-color: darkorange !important;
+.black-bg {
+    background: #000000;
 }
 
 .border-pill {
@@ -14,8 +14,12 @@
     border-radius: 2rem;
 }
 
-.contact-img {
-    width: 50%;
+.darkblue-text {
+    color: #3624AA;
+}
+
+.link-img {
+    width: 50px;
 }
 
 .container-left {
@@ -30,23 +34,27 @@
     font-family: 'Lobster', cursive;
 }
 
+.gmail-img {
+    width: 60px;
+}
+
 .img-of-me {
     height: 60%;
     border-radius: 4rem;
-    border: solid #9D0000;
+    border: solid #1388ce;
+}
+
+.line {
+    border-color: #1388ce;
 }
 
 .links {
-    color: #9D0000;
+    color: #1388ce;
 }
 
 .links:hover {
-    text-decoration-color: #3F0E0E;
-    color: #3F0E0E;
-}
-
-.maroon-text {
-    color: #3F0E0E;
+    text-decoration-color: #3624AA;
+    color: #3624AA;
 }
 
 .monospace-text {
@@ -63,8 +71,8 @@
     font-size: 1.5rem;
 }
 
-.red-text {
-    color: #9D0000;
+.techblue-text {
+    color: #1388ce;
 }
 
 .w-750 {
@@ -72,5 +80,6 @@
 }
 
 .w-8rem {
-    max-width: 8rem;
+    width: 12rem;
+    max-width: 12rem;
 }
