@@ -15,13 +15,22 @@
     border-radius: 2rem;
 }
 
-.darkblue-text {
-    color: #3624AA;
+.contact-img {
+    width: 65px;
 }
 
-.link-img {
-    width: 50px;
-    padding-bottom: 0.65rem;
+.contact-img:hover {
+    opacity: 0.5;
+}
+
+.contact-nav-height {
+    height: 50px;
+    max-height: 50px;
+}
+
+.contact-nav-link:hover {
+    text-decoration: none;
+    background: rgb(36, 36, 36)
 }
 
 .container-left {
@@ -36,8 +45,8 @@
     font-family: 'Lobster', cursive;
 }
 
-.gmail-img {
-    width: 60px;
+.darkblue-text {
+    color: #3624AA;
 }
 
 .img-of-me {
