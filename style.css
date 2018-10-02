@@ -75,7 +75,7 @@
 }
 
 .links:hover {
-    text-decoration-color: #3624AA;
+    text-decoration: none;
     color: #3624AA;
 }
 
