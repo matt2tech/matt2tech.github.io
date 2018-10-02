@@ -41,9 +41,20 @@
 }
 
 .img-of-me {
-    height: 50%;
+    height: 40%;
     border-radius: 4rem;
     border: solid #1388ce;
+}
+
+.info-height {
+    height: 630px;
+}
+
+.index-body-size {
+    width: 1361px;
+    max-width: 1361px;
+    height: 840px;
+    max-height: 840px;
 }
 
 .line {
@@ -75,7 +86,6 @@
 
 .paragraph {
     font-size: 14px;
-    height: 60px;
 }
 
 .techblue-text {
@@ -89,11 +99,6 @@
 .w-8rem {
     width: 12rem;
     max-width: 12rem;
-}
-
-.w-1361 {
-    width: 1361px;
-    max-width: 1361px;
 }
 
 .word-break {
