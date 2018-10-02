@@ -73,6 +73,11 @@
     font-size: 1.5rem;
 }
 
+.paragraph {
+    font-size: 14px;
+    height: 60px;
+}
+
 .techblue-text {
     color: #1388ce;
 }
@@ -84,6 +89,11 @@
 .w-8rem {
     width: 12rem;
     max-width: 12rem;
+}
+
+.w-1361 {
+    width: 1361px;
+    max-width: 1361px;
 }
 
 .word-break {
