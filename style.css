@@ -4,7 +4,7 @@
 }
 
 .black-bg {
-    background: #000000;
+    background-color: #000000;
 }
 
 .border-pill {
@@ -21,6 +21,7 @@
 
 .link-img {
     width: 50px;
+    padding-bottom: 0.65rem;
 }
 
 .container-left {
@@ -83,4 +84,8 @@
 .w-8rem {
     width: 12rem;
     max-width: 12rem;
+}
+
+.word-break {
+    word-wrap: break-word;
 }
