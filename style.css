@@ -45,14 +45,10 @@
     font-family: 'Lobster', cursive;
 }
 
-.darkblue-text {
-    color: #3624AA;
-}
-
 .img-of-me {
     height: 40%;
     border-radius: 4rem;
-    border: solid #1388ce;
+    border: solid rgb(46, 207, 255);
 }
 
 .info-height {
@@ -67,16 +63,16 @@
 }
 
 .line {
-    border-color: #1388ce;
+    border-color: rgb(46, 207, 255);
 }
 
 .links {
-    color: #1388ce;
+    color: rgb(46, 207, 255);
 }
 
 .links:hover {
     text-decoration: none;
-    color: #3624AA;
+    color: #1388ce;
 }
 
 .monospace-text {
@@ -98,7 +94,7 @@
 }
 
 .techblue-text {
-    color: #1388ce;
+    color: rgb(46, 207, 255);
 }
 
 .w-750 {
