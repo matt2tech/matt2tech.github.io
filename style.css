@@ -1,5 +1,5 @@
 .bg-img {
-    background-image: url('images/background.jpg');
+    background-image: url("images/background.jpg");
     background-repeat: repeat-y;
 }
 
@@ -30,7 +30,7 @@
 
 .contact-nav-link:hover {
     text-decoration: none;
-    background: rgb(36, 36, 36)
+    background: rgb(36, 36, 36);
 }
 
 .container-left {
@@ -42,7 +42,7 @@
 }
 
 .cursive {
-    font-family: 'Lobster', cursive;
+    font-family: "Lobster", cursive;
 }
 
 .img-of-me {
@@ -101,7 +101,7 @@
     max-width: 750px;
 }
 
-.page-width {
+/* .page-width {
     width: 1361px;
     max-width: 1361px;
 }
@@ -109,7 +109,7 @@
 .page-height {
     height: 900px;
     max-height: 900px;
-}
+} */
 
 .w-8rem {
     width: 12rem;
