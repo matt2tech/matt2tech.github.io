@@ -101,9 +101,14 @@
     max-width: 750px;
 }
 
-.w-1361 {
+.page-width {
     width: 1361px;
     max-width: 1361px;
+}
+
+.page-height {
+    height: 900px;
+    max-height: 900px;
 }
 
 .w-8rem {
