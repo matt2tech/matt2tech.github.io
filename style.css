@@ -1,3 +1,7 @@
+#about-me {
+    width: 75%;
+}
+
 .bg-img {
     background-image: url("images/background.jpg");
     background-repeat: repeat-y;
@@ -13,6 +17,10 @@
 
 .border-round {
     border-radius: 2rem;
+}
+
+#contact {
+    width: 25%;
 }
 
 .contact-img {
@@ -45,8 +53,12 @@
     font-family: "Lobster", cursive;
 }
 
+#header {
+    width: 75%;
+}
+
 .img-of-me {
-    height: 45%;
+    width: 50%;
     border-radius: 4rem;
     border: solid rgb(46, 207, 255);
 }
@@ -93,20 +105,29 @@
     font-size: 14px;
 }
 
+#project {
+    width: 25%;
+}
+
 .techblue-text {
     color: rgb(46, 207, 255);
 }
 
-.container-width {
-    max-width: 750px;
-    width: 750px;
-}
-
-.w-8rem {
-    width: 12rem;
-    max-width: 12rem;
-}
-
 .word-break {
     word-wrap: break-word;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #header {
+        width: 100%;
+    }
+    #about-me {
+        width: 100%;
+    }
+    .img-of-me {
+        width: 100%;
+    }
+    #project, #contact {
+        width: 100%;
+    }
 }

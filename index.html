@@ -12,14 +12,14 @@
     <link href="https://fonts.googleapis.com/css?family=Cinzel|Comfortaa|Lobster" rel="stylesheet">
 </head>
 
-<body class='bg-img pr-5 pl-5 monospace-text techblue-text'>
+<body class='bg-img monospace-text techblue-text'>
     <div class='p-2 d-flex flex-column align-items-center'>
-        <header class='black-bg text-center m-4 p-2 pr-3 pl-3 border border-dark container-width'>
+        <header id='header' class='black-bg text-center m-4 p-2 pr-3 pl-3 border border-dark'>
             <h1 class='cursive'>Matthew's Portfolio</h1>
-            <p class='one-half-rem'>console.log('Hello world! It\'s Matthew Lipsey')</p>
+            <p>console.log(' Hello world! It\'s Matthew Lipsey ')</p>
         </header>
-        <div class='d-flex justify-content-between pr-4 pl-4'>
-            <div class='p-2 pr-3 pl-3 black-bg text-center border border-dark container-width word-break'>
+        <div id='about-me' class='d-flex justify-content-between pr-4 pl-4'>
+            <div class='p-2 pr-3 pl-3 black-bg text-center border border-dark'>
                 <div class='d-flex justify-content-center'>
                     <!-- <a class='links cursive' href='about-me/about_me.html'> -->
                     <h3>About Me</h3>
@@ -41,14 +41,14 @@
             </div>
         </div>
     </div>
-    <div class='d-flex flex-column align-items-center'>
-        <div class='p-2 pr-3 pl-3 black-bg text-center border border-dark container-width'>
-            <div class=''>
+    <div class='d-flex justify-content-center'>
+        <div id='projects' class='p-2 black-bg text-center border border-dark container-width m-2'>
+            <div class='d-flex flex-column justify-content-center'>
                 <!-- <a class='links cursive' href='projects/project.html'> -->
                 <h3>Projects</h3>
                 <!-- </a> -->
             </div>
-            <ul class='no-dots pb-3 pt-2'>
+            <ul class='no-dots p-2'>
                 <h5 class=''>Python</h5>
                 <hr class='line'>
                 <li><a class='links' href='https://github.com/matt2tech/immortal_war'>Immortal War</a></li>
@@ -56,40 +56,42 @@
                         Store</a></li>
                 <li><a class='links' href='https://github.com/matt2tech/gladiator_classes'>Gladiator</a></li>
             </ul>
-            <ul class='no-dots pb-3 pt-2'>
+            <ul class='no-dots p-2'>
                 <h5 class=''>HTML, CSS, and Bootstrap</h5>
                 <hr class='line'>
                 <li><a class='links' href='https://github.com/matt2tech/matt2tech.github.io'>This Website</a></li>
                 <li><a class='links' href='https://github.com/matt2tech/github-project'>Github Project</a></li>
+                <li><a class='links' href='https://matt2tech.github.io/mattLipseyWebRentalAgency/'>Rental Store Website</a></li>
             </ul>
-            <ul class='no-dots pb-3 pt-2'>
+            <ul class='no-dots p-2'>
                 <h5 class=''>Javascript</h5>
                 <hr class='line'>
                 <li><a class='links' href='https://github.com/matt2tech/recreating-bootstraps-dropdown'>Dropdowns</a></li>
                 <li><a class='links' href='https://github.com/matt2tech/recreating-bootstraps-navtabs'>Navtabs</a></li>
             </ul>
         </div>
-        <div class='p-2 pr-3 pl-3 black-bg text-center border border-dark container-width'>
-            <div class='d-flex justify-content-center'>
+        <div id='contact' class='p-2 black-bg text-center border border-dark container-width m-2'>
+            <div class='d-flex flex-column justify-content-center'>
                 <!-- <a class='links cursive' href='contacts/contact.html'> -->
                 <h3>Contact</h3>
                 <!-- </a> -->
             </div>
-            <ul class='no-dots pb-3'>
+            <ul class='no-dots p-2'>
                 <h5 class="">Linkedin</h5>
                 <li class=''><a class='links' href='' data-toggle="tooltip" data-placement="bottom" title="Try other contacts"><img
                             class='contact-img' src='images/linkedin.svg' alt='linkedin' /></a></li>
-                <hr class='line'>
+                <h6 class='d-flex flex-column'><small>(Temporary unavailable)</small></h6>
+            </ul>
+            <ul class='no-dots p-2'>
                 <h5 class="">Gmail</h5>
                 <li class=''><a class='links' href='mailto:mlipsey@basecampcodingacademy.org'><img class='contact-img'
                             src='images/gmail.svg' alt='gmail' /></a></li>
-                <hr class='line'>
+            </ul>
+            <ul class='no-dots p-2'>
                 <h5 class="">Github</h5>
                 <li class=''><a class='links' href='https://github.com/matt2tech'><img class='contact-img' src='images/github.svg'
                             alt='github' /></a></li>
-                <hr class='line'>
             </ul>
-            <h6 class=''>(Linkedin contact is temporary unavailable)</h6>
         </div>
     </div>
 </body>
