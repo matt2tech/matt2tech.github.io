@@ -1,3 +1,7 @@
+.about-boxes {
+    width: 75%;
+}
+
 #about-me {
     width: 75%;
 }
@@ -92,6 +96,9 @@
         width: 100%;
     }
     #projects, #contact {
+        width: 100%;
+    }
+    .about-boxes {
         width: 100%;
     }
 }
