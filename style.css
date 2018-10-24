@@ -31,22 +31,9 @@
     opacity: 0.5;
 }
 
-.contact-nav-height {
-    height: 50px;
-    max-height: 50px;
-}
-
 .contact-nav-link:hover {
     text-decoration: none;
     background: rgb(36, 36, 36);
-}
-
-.container-left {
-    margin-left: 3.75rem !important;
-}
-
-.container-right {
-    margin-right: 3.75rem !important;
 }
 
 .cursive {
@@ -61,17 +48,6 @@
     width: 50%;
     border-radius: 4rem;
     border: solid rgb(46, 207, 255);
-}
-
-.info-height {
-    height: 630px;
-}
-
-.index-body-size {
-    width: 1361px;
-    max-width: 1361px;
-    height: 840px;
-    max-height: 840px;
 }
 
 .line {
@@ -97,20 +73,12 @@
     padding: 0;
 }
 
-.one-half-rem {
-    font-size: 1.5rem;
-}
-
 .paragraph {
     font-size: 14px;
 }
 
 .techblue-text {
     color: rgb(46, 207, 255);
-}
-
-.word-break {
-    word-wrap: break-word;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
