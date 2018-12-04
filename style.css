@@ -101,4 +101,12 @@
     .about-boxes {
         width: 100%;
     }
+
+    #contact-info {
+        display: block !important
+    }
+
+    #contact-info div {
+        margin-bottom: 50px
+    }
 }
