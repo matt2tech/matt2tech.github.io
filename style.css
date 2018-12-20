@@ -27,14 +27,6 @@
     width: 36.5%;
 }
 
-.contact-img {
-    width: 65px;
-}
-
-.contact-img:hover {
-    opacity: 0.5;
-}
-
 .contact-nav-link:hover {
     text-decoration: none;
     background: rgb(36, 36, 36);
@@ -42,6 +34,14 @@
 
 .cursive {
     font-family: "Lobster", cursive;
+}
+
+.fas, .fab {
+    font-size: 500%;
+}
+
+.fas::before, .fab::before {
+    text-decoration: none;
 }
 
 #header {
@@ -80,6 +80,12 @@
 .paragraph {
     font-size: 14px;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
 
 .techblue-text {
     color: rgb(46, 207, 255);
