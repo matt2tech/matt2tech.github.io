@@ -40,7 +40,7 @@
     font-size: 500%;
 }
 
-.fas::before, .fab::before {
+.icon:hover {
     text-decoration: none;
 }
 
