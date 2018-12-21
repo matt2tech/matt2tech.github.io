@@ -23,6 +23,10 @@
     border-radius: 2rem;
 }
 
+#bottom {
+    width: 85%
+}
+
 #contact, #projects {
     width: 36.5%;
 }
@@ -103,6 +107,10 @@
 .techblue-border {
     border-radius: 4rem;
     border: solid rgb(46, 207, 255);
+}
+
+.techblue-bg {
+    background: rgb(46, 207, 255)
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
