@@ -52,6 +52,15 @@
     width: 75%;
 }
 
+.header-links {
+    color: rgb(46, 207, 255);
+    text-decoration: underline
+}
+
+.header-links:hover {
+    color: #1388ce;
+}
+
 .img-of-me {
     width: 50%;
     border-radius: 4rem;
