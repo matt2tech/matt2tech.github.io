@@ -7,7 +7,7 @@
 }
 
 .bg-img {
-    background-image: url("images/background.jpg");
+    background-image: url("../images/background.jpg");
     background-repeat: repeat
 }
 
