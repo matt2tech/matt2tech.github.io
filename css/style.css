@@ -7,8 +7,7 @@
 }
 
 .bg-img {
-    background-image: url("../images/background.jpg");
-    background-repeat: repeat
+    background-color: #131313
 }
 
 .black-bg {
@@ -124,6 +123,10 @@
     border: solid rgb(46, 207, 255);
 }
 
+.techblue-border-bottom {
+    border-bottom: solid rgb(46, 207, 255);
+}
+
 .techblue-bg {
     background: rgb(46, 207, 255)
 }
@@ -157,3 +160,4 @@
         border-radius: 2rem;
         border: solid rgb(46, 207, 255);
     }
+}
