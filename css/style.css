@@ -1,0 +1,159 @@
+.about-boxes {
+    width: 75%;
+}
+
+#about-me {
+    width: 75%;
+}
+
+.bg-img {
+    background-image: url("images/background.jpg");
+    background-repeat: repeat
+}
+
+.black-bg {
+    background-color: #000000;
+}
+
+.border-pill {
+    border-radius: 3rem;
+}
+
+.border-round {
+    border-radius: 2rem;
+}
+
+#bottom {
+    width: 85%
+}
+
+#contact, #projects {
+    width: 36.5%;
+}
+
+.contact-nav-link:hover {
+    text-decoration: none;
+    background: rgb(36, 36, 36);
+}
+
+.cursive {
+    font-family: "Lobster", cursive;
+}
+
+.fas, .fab {
+    font-size: 500%;
+}
+
+.icon:hover {
+    text-decoration: none;
+}
+
+#header {
+    width: 75%;
+}
+
+.header-links {
+    color: rgb(46, 207, 255);
+    text-decoration: underline
+}
+
+.header-links:hover {
+    color: #1388ce;
+}
+
+.img-of-me {
+    width: 50%;
+    border-radius: 4rem;
+    border: solid rgb(46, 207, 255);
+}
+
+.line {
+    border-color: rgb(46, 207, 255);
+}
+
+.links {
+    color: rgb(46, 207, 255);
+}
+
+.links:hover {
+    text-decoration: none;
+    color: #1388ce;
+}
+
+.monospace-text {
+    font-family: monospace;
+}
+
+.no-dots {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.paragraph {
+    font-size: 14px;
+}
+
+.project {
+    width: 75%
+}
+
+#projects {
+    width: 50%;
+}
+
+.resume {
+    height: 99.26vh;
+    width: 100%;
+    border: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+.techblue-text {
+    color: rgb(46, 207, 255);
+}
+
+.techblue-border {
+    border-radius: 4rem;
+    border: solid rgb(46, 207, 255);
+}
+
+.techblue-bg {
+    background: rgb(46, 207, 255)
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    #header {
+        width: 100%;
+    }
+    #about-me {
+        width: 100%;
+    }
+    .img-of-me {
+        width: 100%;
+    }
+    #projects, #contact {
+        width: 100%;
+    }
+    .about-boxes {
+        width: 100%;
+    }
+
+    #contact-info {
+        display: block !important
+    }
+
+    #contact-info div {
+        margin-bottom: 50px
+    }
+
+    .techblue-border {
+        border-radius: 2rem;
+        border: solid rgb(46, 207, 255);
+    }
