@@ -101,12 +101,6 @@
     width: 50%;
 }
 
-.resume {
-    height: 99.26vh;
-    width: 100%;
-    border: none;
-}
-
 .sticky {
     position: fixed;
     top: 0;
