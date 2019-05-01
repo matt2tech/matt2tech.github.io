@@ -89,6 +89,14 @@
     font-family: monospace;
 }
 
+#navbar {
+    background-color: #000000;
+    border-bottom: solid rgb(46, 207, 255);
+    display: flex;
+    align-items: center;
+    padding-top: .5rem;
+}
+
 .no-dots {
     list-style-type: none;
     margin: 0;
@@ -99,7 +107,7 @@
     font-size: 14px;
 }
 
-#projects {
+#projects, #technical, #personal {
     display: flex
 }
 
@@ -157,7 +165,7 @@
         width: 100%;
     }
 
-    #projects{
+    #projects, #technical, #personal{
         display: inline-block
     }
 
