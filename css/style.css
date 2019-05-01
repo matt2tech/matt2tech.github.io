@@ -22,12 +22,14 @@
     border-radius: 2rem;
 }
 
-#bottom {
-    width: 85%
+#codeProjects {
+    display: flex;
 }
 
-#contact, #projects {
-    width: 36.5%;
+#contacts {
+    display: flex;
+    justify-content: space-around;
+    border-top: solid rgb(46, 207, 255);
 }
 
 .contact-nav-link:hover {
@@ -43,12 +45,16 @@
     font-size: 500%;
 }
 
+.flex-1 {
+    flex: 1;
+}
+
 .icon:hover {
     text-decoration: none;
 }
 
-#header {
-    width: 75%;
+.grey-bg {
+    background-color: #131313;
 }
 
 .header-links {
@@ -93,12 +99,8 @@
     font-size: 14px;
 }
 
-.project {
-    width: 75%
-}
-
 #projects {
-    width: 50%;
+    display: flex
 }
 
 .sticky {
@@ -126,20 +128,21 @@
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    #header {
+
+    .about-boxes {
         width: 100%;
     }
+
     #about-me {
         width: 100%;
     }
-    .img-of-me {
-        width: 100%;
+
+    #codeProjects {
+        display: inline-block;
     }
-    #projects, #contact {
-        width: 100%;
-    }
-    .about-boxes {
-        width: 100%;
+
+    #contacts {
+        display: none;
     }
 
     #contact-info {
@@ -148,6 +151,14 @@
 
     #contact-info div {
         margin-bottom: 50px
+    }
+
+    .img-of-me {
+        width: 100%;
+    }
+
+    #projects{
+        display: inline-block
     }
 
     .techblue-border {
