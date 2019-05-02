@@ -32,6 +32,10 @@
     border-top: solid rgb(46, 207, 255);
 }
 
+#contactInfo {
+    display: flex;
+}
+
 .contact-nav-link:hover {
     text-decoration: none;
     background: rgb(36, 36, 36);
@@ -153,12 +157,8 @@
         display: none;
     }
 
-    #contact-info {
-        display: block !important
-    }
-
-    #contact-info div {
-        margin-bottom: 50px
+    #contactInfo {
+        display: inline-block;
     }
 
     .img-of-me {
