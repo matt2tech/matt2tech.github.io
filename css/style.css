@@ -22,18 +22,10 @@
     border-radius: 2rem;
 }
 
-#codeProjects {
-    display: flex;
-}
-
 #contacts {
     display: flex;
     justify-content: space-around;
     border-top: solid rgb(46, 207, 255);
-}
-
-#contactInfo {
-    display: flex;
 }
 
 .contact-nav-link:hover {
@@ -111,7 +103,7 @@
     font-size: 14px;
 }
 
-#projects, #technical, #personal {
+#projects, #technical, #personal, #codeProjects, #contactInfo, #work {
     display: flex
 }
 
@@ -149,23 +141,15 @@
         width: 100%;
     }
 
-    #codeProjects {
-        display: inline-block;
-    }
-
     #contacts {
         display: none;
-    }
-
-    #contactInfo {
-        display: inline-block;
     }
 
     .img-of-me {
         width: 100%;
     }
 
-    #projects, #technical, #personal{
+    #projects, #technical, #personal, #codeProjects, #contactInfo, #work{
         display: inline-block
     }
 
